@@ -3,7 +3,7 @@ rm(list = ls())
 source("R/setup.R")
 
 #### General Inputs ----
-# These outputs are the same for all variables in the analysis
+# These inputs are the same for all variables in the analysis
 lead_id <- 0 # Lag to which you want to fit the model (0, 10, 25, 50)
 phase <- "Phase" # Column name identifying pre- and post-seizure phases
 covariate <- "Time" # Column name identifying non-stationary covariate for the model
